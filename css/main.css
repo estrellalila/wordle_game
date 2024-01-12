@@ -1,0 +1,23 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4.5px;
+}
+/*board-row가 따로 클래스라고..?*/
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.5px;
+}
+.board-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #e2e8f0;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+}
