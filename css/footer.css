@@ -16,19 +16,19 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e2e8f0;
+  background-color: #d3d6da;
   width: 40px;
   height: 70px;
   border-radius: 5px;
   color:black;
-  font-weight: bold;
-  font-size:10px;
+  font-weight:bold;
+  font-size:18px;
 }
 .keyboard-column.wide {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e2e8f0;
+  background-color: #d3d6da;
   width: 80px;
   height: 70px;
   border-radius: 5px;

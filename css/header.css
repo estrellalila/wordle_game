@@ -1,0 +1,38 @@
+header {
+  padding: 15px 0px 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #edeef0;
+}
+.header-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-column.left .header-icon {
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+}
+.header-column.right .header-icon {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  padding: 0 5px 0 0;
+}
+.header-title {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 135px;
+  font-size: 25px;
+  font-weight: bold;
+}

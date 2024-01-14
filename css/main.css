@@ -4,6 +4,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 4.5px;
+  margin-top: 17px;
 }
 /*board-row가 따로 클래스라고..?*/
 .board-row {
@@ -16,8 +17,13 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid #e2e8f0;
+  border: 2px solid #d3d6da;
   width: 60px;
   height: 60px;
-  border-radius: 5px;
+  border-radius: 1px;
+  font-size: 25px;
+  font-weight: bold;
+}
+#timer {
+  margin-bottom: 15px;
 }
