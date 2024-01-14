@@ -26,11 +26,9 @@ function appStart() {
   };
   const nextLine = () => {
     // 시도는 6번까지만 가능
-    if (attempts === 6) return gameover();
-    else {
-      attempts += 1;
-      index = 0;
-    }
+    if (attempts === 6) gameover();
+    attempts += 1;
+    index = 0;
   };
   const handleBackspace = () => {
     // 원래 있던 단어를 지우고 index 줄이기
